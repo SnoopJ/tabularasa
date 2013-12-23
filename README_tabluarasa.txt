@@ -23,8 +23,8 @@ NOTE: bootstrap.config files modified with the old method will still work with v
 == INSTALLATION & USAGE ==
 (see also installation.png)
 
-1. Extract "TabulaRasaV1.5.zip" into the main Starbound folder.
-2. Verify that the "tabularasa1.5" folder is in the 'Starbound/mods' directory. If not, you may have extracted the archive to the wrong folder.
+1. Extract "TabulaRasaV1.5.zip" into the Starbound/mods folder.
+2. Verify that the Tabula Rasa 1.5 folder is in the 'Starbound/mods' directory. If not, you may have extracted the archive to the wrong folder.
 3. Once the folder has been placed correctly, launch Starbound. 
 4. On any character, open the personal crafting menu (default 'c'), and craft the Tabula Rasa for a cost of 1 pixel. 
 5. Place the tablet in the game world.  It can now be used to craft any recipes that include "mod" in their group list. 
