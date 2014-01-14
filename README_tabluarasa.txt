@@ -1,4 +1,4 @@
-=== TABULA RASA V1.5 ===
+=== TABULA RASA V2.0 ===
 
 By:         LowestFormOfWit and SnoopJeDi (snoopjedi@gmail.com)
 
@@ -23,7 +23,7 @@ NOTE: bootstrap.config files modified with the old method will still work with v
 == INSTALLATION & USAGE ==
 (see also installation.png)
 
-1. Extract "TabulaRasaV1.5.zip" into the main Starbound folder.
+1. Extract "TabulaRasaV2.0.zip" into the main Starbound folder.
 2. Verify that the "tabularasa1.5" folder is in the 'Starbound/mods' directory. If not, you may have extracted the archive to the wrong folder.
 3. Once the folder has been placed correctly, launch Starbound. 
 4. On any character, open the personal crafting menu (default 'c'), and craft the Tabula Rasa for a cost of 1 pixel. 
@@ -53,6 +53,7 @@ If you would like Tabula Rasa to be -required- to run your mod (as opposed to op
 Thanks to SpiderDave of ##starbound-modding, we have in this version included several different .modinfo files that serve as a workaround to dependency versioning.  This version is backwards compatible with 1.1-1.4, so any mods that previously depended on those versions will continue to work if 1.5 is the only copy of the mod installed.  This leaves us breathing room in case something major changes that breaks compatibility in the future.
 
 == CHANGELOG ==
+2.0 - dynamic category buttons added
 1.5 - __merge integration, recipe changed to plain, 1 pixel.  Dependency versioning workaround implemented.  Tablet can no longer be crafted on itself.
 1.4 - Stopgap update to make Tabula Rasa immediately available for Angry Koala
 1.3 - Minor grammatical errors and frame errors fixed. Graphic updated. Imperfectly Generic Item made as an optional additional example. Duplicate Tabula Rasas crafted from a Tabula Rasa now cost 1 pixel instead of additonal torches.
