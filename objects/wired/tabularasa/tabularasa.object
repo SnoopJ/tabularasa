@@ -7,7 +7,18 @@
  
   
 
-  "filterButtons" : [ ],
+  "filterButtons" : [
+    {
+        "baseImage" : "/path/to/baseImage.png",
+        "baseImageChecked" : "/path/to/baseImageChecked.png",
+        "filter" : "myFirstModName"
+    },
+    {
+        "baseImage" : "/path/to/baseImage.png",
+        "baseImageChecked" : "/path/to/baseImageChecked.png",
+        "filter" : "mySecondModName"
+    }
+  ],
   
   "printable" : false,
   "description" : "A blank tablet is merely the potential for anything.",
