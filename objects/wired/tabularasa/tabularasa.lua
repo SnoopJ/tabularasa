@@ -5,7 +5,7 @@ entity.setInteractive(true)
 world.logInfo("tabularasa.lua:init(): tabularasa has done its init")
 
 interfaceconfig = { config="/interface/tabularasa/tabularasa.config" , 
-["filter"]={"cooking"} }
+["filter"]={"mod"} }
 
 config = setupConfig()
 --world.logInfo(config)
