@@ -72,8 +72,7 @@ To use this example, open "imperfectlygenericitem.recipe" found in the "recipes"
 Change it to this:
 			"groups" : [ "mod", "mymodkeyword", "tools", "all" ]
 			
-7. Change your mod's modinfo file to list "tabularasa2.0" as a dependency. Not doing this step will not allow you to use the Custom Filter Button feature, as your __merge will be unable to find the Tabula Rasa file.
-8. That's it! Your custom filter button should show up on the right pane of Tabula Rasa labelled "MODS". If it does not, go back through these steps thoroughly and check your work again. 
+7. That's it! Your custom filter button should show up on the right pane of Tabula Rasa labelled "MODS". If it does not, go back through these steps thoroughly and check your work again. 
 
 The Tabula Rasa will automatically load any Custom Filter Buttons from any installed mods and organize them for you, so it always looks good!  
 In V2.0, Tabula Rasa has a hard limit of 22 filter buttons that can be displayed in this way, and will notify you how many aren't being shown due to the excess. This hard cap may change in the future when the developers expose more of the UI system to modders.
@@ -86,6 +85,7 @@ See "tabularasa2.0/Templates/" for the "derivativemod.modinfo.example" file for 
 Version 2.0 represents a large change in both Starbound and Tabula Rasa, and as such, Tabula Rasa 2.0 is NOT backwards compatible with previous versions.
 
 == CHANGELOG ==
+2.0 (hotfix) - tabularasa.object now includes __merge, so dependencies are now NOT necessary
 2.0 - Added custom filter buttons - Tabula Rasa switched to scripted object
 1.5 - __merge integration, recipe changed to plain, 1 pixel.  Dependency versioning workaround implemented.  Tablet can no longer be crafted on itself.
 1.4 - Stopgap update to make Tabula Rasa immediately available for Angry Koala
