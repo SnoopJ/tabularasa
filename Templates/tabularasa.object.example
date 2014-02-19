@@ -6,6 +6,7 @@
     {
       "baseImage" : "/path/to/mybutton.png",
       "baseImageChecked" : "/path/to/mybuttonchecked.png",
+      // Your username or the (short) name of your mod are good choices for a filterkeyword
       "filter" : "mymodkeyword"
     }
   ]
