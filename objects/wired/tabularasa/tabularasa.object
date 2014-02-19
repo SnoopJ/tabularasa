@@ -1,5 +1,7 @@
 {
-  "__merge" : [],
+  "__merge" : [ ["overwrite", "orientations"],
+                ["overwrite", "animationPosition"]
+  ],
   "objectName" : "tabularasa",
   "rarity" : "Legendary",
   "objectType" : "wire",
@@ -8,8 +10,7 @@
  
   
 
-  "filterButtons" : [
-  ],
+  "filterButtons" : [],
   
   "printable" : false,
   "description" : "A blank tablet is merely the potential for anything.",

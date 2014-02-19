@@ -272,6 +272,7 @@ local buttonArrayHSpacing = 61
 local buttonArrayVSpacing = 20
 
 local buttons = entity.configParameter("filterButtons")
+local added = {}
 
 world.logInfo("'buttons' is set to %s",buttons)
 
@@ -361,7 +362,7 @@ local b = {
     if not bt["baseImageChecked"] then bt["baseImageChecked"] = "/interface/tabularasa/iconmissingchecked.png" end
     
     local bnew = nil
-    if bt["filter"] then
+    if bt["filter"] and not added[bt["filter"]] then
       bnew = {
         position = {x,y},
         baseImage = bt["baseImage"],
@@ -371,6 +372,7 @@ local b = {
         }
       }
       num = num + 1
+      added[bt["filter"]] = true
     else
       world.logInfo("Warning: Tabula Rasa is skipping a button with no filter set, 'bt' is %s",bt)
     end

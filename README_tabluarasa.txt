@@ -1,4 +1,4 @@
-=== TABULA RASA V2.0 ===
+=== TABULA RASA V2.1 ===
 
 By:         LowestFormOfWit and SnoopJeDi
 
@@ -22,8 +22,8 @@ Thank you all for using the Tabula Rasa. We continue to be amazed at the warm re
 
 == INSTALLATION & USAGE ==
 
-1. Extract "TabulaRasaV2.0.zip" into the main Starbound folder.
-2. Verify that the "tabularasa2.0" folder is in the 'Starbound/mods' directory. If not, you may have extracted the archive to the wrong folder.
+1. Extract "TabulaRasaV2.1.zip" into the main Starbound folder.
+2. Verify that the "tabularasa2.1" folder is in the 'Starbound/mods' directory. If not, you may have extracted the archive to the wrong folder.
 3. Once the folder has been placed correctly, launch Starbound. 
 4. On any character, open the personal crafting menu (default 'c'), and craft the Tabula Rasa for a cost of 1 pixel. 
 5. Place the tablet in the game world.  It can now be used to craft any recipes that include "mod" in their group list. 
@@ -49,7 +49,7 @@ To use this example, open "imperfectlygenericitem.recipe" found in the "recipes"
 == MAKING A CUSTOM FILTER BUTTON FOR TABULA RASA ==
 
 1. Create a folder structure in your mod so it appears like this: "<YOURMODNAMEHERE>/objects/wired/tabularasa/".
-2. Copy over the file "tabularasa.object.example" file from the "tabularasa2.0/Templates/" directory to this new directory you made above in step 1.
+2. Copy over the file "tabularasa.object.example" file from the "tabularasa2.1/Templates/" directory to this new directory you made above in step 1.
 3. Rename this file "tabularasa.object". Verify that the file path is: "<YOURMODNAMEHERE>/objects/wired/tabularasa/tabularasa.object".
 4. Open this "tabularasa.object" in Notepad++ or equivalent.
 5. Go to this section of the file: 
@@ -58,7 +58,7 @@ To use this example, open "imperfectlygenericitem.recipe" found in the "recipes"
 			"baseImageChecked" : "/path/to/mybuttonchecked.png",
 			"filter" : "mymodkeyword"
 	
-	5a. If you want to use a custom artwork for your filter button, copy the example button templates provided in the main "tabularasa2.0" directory, labelled "buttontemplateGREY.png" and "buttontemplateGOLD.png" to your mod directory. 
+	5a. If you want to use a custom artwork for your filter button, copy the example button templates provided in the main "tabularasa2.1" directory, labelled "buttontemplateGREY.png" and "buttontemplateGOLD.png" to your mod directory. 
 	5b. If you do not wish to make custom art for your button, simply remove the "baseImage" and "baseImageChecked" lines ENTIRELY, and Tabula Rasa will automatically load a generic button labelled "Mod Icon Missing" as a placeholder.
 	5c. Fill in the empty space provided in each of these buttons with whatever you feel will identify your button, and save as a transparent.PNG file. Change the names, but make a distinction between the GREY border button and the GOLD border button. The images should be 60x18px to maintain a uniform appearance to the menu.  Don't exceed this or you will break other mod filters and your users will be sad!
 	5d. Change the example filepath above for "baseImage" to the path to your GREY BORDER button you made in step 5c. 
@@ -75,16 +75,17 @@ Change it to this:
 7. That's it! Your custom filter button should show up on the right pane of Tabula Rasa labelled "MODS". If it does not, go back through these steps thoroughly and check your work again. 
 
 The Tabula Rasa will automatically load any Custom Filter Buttons from any installed mods and organize them for you, so it always looks good!  
-In V2.0, Tabula Rasa has a hard limit of 22 filter buttons that can be displayed in this way, and will notify you how many aren't being shown due to the excess. This hard cap may change in the future when the developers expose more of the UI system to modders.
+In V2.1, Tabula Rasa has a hard limit of 22 filter buttons that can be displayed in this way, and will notify you how many aren't being shown due to the excess. This hard cap may change in the future when the developers expose more of the UI system to modders.
 
 == COMPATABILITY ==
   
-If you would like Tabula Rasa to be -required- to run your mod (as opposed to optional), make sure your .modinfo file lists "tabularasa2.0" as a dependency.  
-See "tabularasa2.0/Templates/" for the "derivativemod.modinfo.example" file for an example.
+If you would like Tabula Rasa to be -required- to run your mod (as opposed to optional), make sure your .modinfo file lists "tabularasa2.1" as a dependency.  
+See "tabularasa2.1/Templates/" for the "derivativemod.modinfo.example" file for an example.
  
-Version 2.0 represents a large change in both Starbound and Tabula Rasa, and as such, Tabula Rasa 2.0 is NOT backwards compatible with previous versions.
+Version 2.0 represents a large change in both Starbound and Tabula Rasa, and as such, Tabula Rasa 2.0 is NOT backwards compatible with previous versions.  V2.1 is backwards compatible with V2.0, so mods that depend on V2.0 should work with V2.1.
 
 == CHANGELOG ==
+2.1 - Update to 'Enraged,' filter buttons will only be added once, fixed __merge corner case that would have prevented backwards compatibility
 2.0 (hotfix) - tabularasa.object now includes __merge, so dependencies are now NOT necessary
 2.0 - Added custom filter buttons - Tabula Rasa switched to scripted object
 1.5 - __merge integration, recipe changed to plain, 1 pixel.  Dependency versioning workaround implemented.  Tablet can no longer be crafted on itself.
