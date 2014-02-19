@@ -1,0 +1,9 @@
+Unit tests:
+The tabularasa should have the following recipes in it:
+-stonepickaxe
+-copperpickaxe
+-diamondpickaxe
+
+There should be ONLY TWO filter buttons marked "test 1" and "test 2"
+- Clicking "test 1" should filter for the diamondpickaxe and copperpickaxe ONLY
+- Clicking "test 2" should filter for the copperpickaxe and stonepickaxe ONLY

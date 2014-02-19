@@ -1,6 +1,0 @@
-{
-    "name" : "derivativemodname",
-    "version" : "Beta v. Enraged Koala",
-    "path" : ".",
-    "dependencies" : [ "tabularasa2.1" ]
-}
