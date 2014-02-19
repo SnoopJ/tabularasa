@@ -2,19 +2,19 @@
   "__merge" : [], 
   "filterButtons" : [
     {
+      "baseImage" : "/interface/snoopjedi.png",
+      "baseImageChecked" : "/interface/snoopjedi.png",
+      "filter" : "snoopjedi"
+    },
+    {
+      "baseImage" : "/interface/snoopjedi.png",
+      "baseImageChecked" : "/interface/snoopjedi.png",
+      "filter" : "snoopjedi"
+    },
+    {
       "baseImage" : "/interface/unittest.png",
       "baseImageChecked" : "/interface/unittest.png",
       "filter" : "unittest"
-    },
-    {
-      "baseImage" : "/interface/snoopjedi.png",
-      "baseImageChecked" : "/interface/snoopjedi.png",
-      "filter" : "snoopjedi"
-    },
-    {
-      "baseImage" : "/interface/snoopjedi.png",
-      "baseImageChecked" : "/interface/snoopjedi.png",
-      "filter" : "snoopjedi"
     }
   ]
 }
