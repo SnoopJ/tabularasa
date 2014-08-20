@@ -1,0 +1,33 @@
+[
+  {
+    "op" : "add",
+    "path" : "/filterButtons/-",
+    "value" : 
+      {
+        "baseImage" : "/interface/snoopjedi.png",
+        "baseImageChecked" : "/interface/snoopjedi.png",
+        "filter" : "snoopjedi"
+      }
+  },
+  {
+    "op" : "add",
+    "path" : "/filterButtons/-",
+    "value" : 
+      {
+        "baseImage" : "/interface/snoopjedi.png",
+        "baseImageChecked" : "/interface/snoopjedi.png",
+        "filter" : "snoopjedi"
+      }
+  },
+  {
+    "op" : "add",
+    "path" : "/filterButtons/-",
+    "value" : 
+      {
+        "baseImage" : "/interface/unittest.png",
+        "baseImageChecked" : "/interface/unittest.png",
+        "baseImageChecked" : "/interface/snoopjedi.png",
+        "filter" : "unittest"
+      }
+  }
+]
