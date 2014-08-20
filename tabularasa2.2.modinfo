@@ -1,6 +1,6 @@
 {
-    "name" : "tabularasa2.0",
+    "name" : "tabularasa2.2",
     "version" : "Beta v. Enraged Koala",
     "path" : ".",
-    "dependencies" : []
+    "require" : []
 }

@@ -2,5 +2,6 @@
     "name" : "derivativemodname",
     "version" : "Beta v. Enraged Koala",
     "path" : ".",
-    "dependencies" : [ "tabularasa2.1" ]
+    "include" : [ "tabularasa" ] 
+    // Use "require" instead if you want to make tabularasa mandatory 
 }
